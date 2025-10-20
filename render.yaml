@@ -8,7 +8,7 @@ services:
       - key: DATABASE_URL
         fromDatabase:
           name: serverless-db
-          property: internalUrl
+          property: postgresql://serverless_db_ongz_user:YzXnSbip3j3y11AUIgF1y74VFJ2bapjt@dpg-d3r7i8ogjchc73bt1910-a/serverless_db_ongz
 
 databases:
   - name: serverless-db
